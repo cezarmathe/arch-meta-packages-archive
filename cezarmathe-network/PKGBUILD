@@ -1,0 +1,15 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-network
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Packages for using the internet"
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+  'dhcp'
+  'netctl'
+  'networkmanager'
+  'wpa_supplicant'
+)

@@ -1,0 +1,17 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-openbox
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Package containing needed packages for an openbox environment"
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+  'arandr'
+  'lxappearance-obconf-gtk3'
+  'lxinput-gtk3'
+  'lxrandr-gtk3'
+  'obconf'
+  'openbox'
+)

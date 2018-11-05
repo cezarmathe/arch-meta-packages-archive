@@ -1,0 +1,90 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-essentials
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Essential packages for all systems"
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+    # base group
+    'amd-ucode'
+    'bash'
+    'bzip2'
+    'coreutils'
+    'cryptsetup'
+    'device-mapper'
+    'dhcpcd'
+    'diffutils'
+    'e2fsprogs'
+    'file'
+    'filesystem'
+    'findutils'
+    'gawk'
+    'gcc-libs'
+    'gettext'
+    'glibc'
+    'grep'
+    'gzip'
+    'inetutils'
+    'iproute2'
+    'iputils'
+    'jfsutils'
+    'less'
+    'licenses'
+    'linux'
+    'linux-firmware'
+    'logrotate'
+    'lvm2'
+    'man-db'
+    'man-pages'
+    'mdadm'
+    'nano'
+    'netctl'
+    'pacman'
+    'pciutils'
+    'perl'
+    'procps-ng'
+    'psmisc'
+    'reiserfsprogs'
+    's-nail'
+    'sed'
+    'shadow'
+    'sysfsutils'
+    'systemd-sysvcompat'
+    'tar'
+    'texinfo'
+    'usbutils'
+    'util-linux'
+    'vi'
+    'which'
+    'xfsprogs'
+
+    # base-devel group
+    'autoconf'
+    'automake'
+    'binutils'
+    'bison'
+    'fakeroot'
+    'flex'
+    'gcc'
+    'groff'
+    'libtool'
+    'm4'
+    'make'
+    'patch'
+    'pkgconf'
+    'sudo'
+    'systemd'
+
+    # bootloader
+    'grub'
+
+    # drivers
+    'intel-ucode'
+    'nvidia'
+
+    # others
+    'ntp'
+)

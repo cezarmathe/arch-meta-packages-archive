@@ -1,0 +1,33 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-desktop-extra
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Extra packages for desktop PCs"
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+  # themes
+  'arc-gtk-theme'
+  'lightdm-webkit-theme-litarvan'
+
+  # desktop addons
+  'plank'
+  'redshift'
+  'tint2'
+
+  # desktop software
+  'firefox'
+  'ristretto'
+  'vlc'
+
+  # utilities
+  'gedit'
+  'galculator'
+  'gnome-disk-utility'
+  'gnome-documents'
+  'gnome-nettool'
+  'keepass'
+  'network-manager-applet'
+)
