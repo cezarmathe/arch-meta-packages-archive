@@ -5,7 +5,7 @@ pkgrel=1
 pkgdesc="Package containing needed packages for an openbox environment"
 arch=('any')
 # todo: change url
-url="https://github.com/mdaffin/arch-pkgs"
+url="http://95.76.154.78:8000/cezarmathe-arch/repo/x86_64"
 license=('MIT')
 depends=(
   'arandr'

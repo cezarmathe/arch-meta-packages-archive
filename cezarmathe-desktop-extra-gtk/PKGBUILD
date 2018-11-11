@@ -1,13 +1,15 @@
 # Maintainer: Cezar Mathe <cezarmathe@gmail.com>
-pkgname=cezarmathe-desktop-extra
+pkgname=cezarmathe-desktop-extra-gtk
 pkgver=0.0.1
 pkgrel=1
 pkgdesc="Extra packages for desktop PCs(GTK)"
 arch=('any')
 # todo: change url
-url="https://github.com/mdaffin/arch-pkgs"
+url="http://95.76.154.78:8000/cezarmathe-arch/repo/x86_64"
 license=('MIT')
 depends=(
+  'cezarmathe-desktop-extra'
+
   # themes
   'arc-gtk-theme'
   'lightdm-webkit-theme-litarvan'
