@@ -1,0 +1,12 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-desktop
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Packages needed for a KDE Plasma desktop."
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+  
+)

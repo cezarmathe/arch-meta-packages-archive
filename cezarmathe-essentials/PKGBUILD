@@ -9,7 +9,6 @@ url="https://github.com/mdaffin/arch-pkgs"
 license=('MIT')
 depends=(
     # base group
-    'amd-ucode'
     'bash'
     'bzip2'
     'coreutils'
@@ -61,29 +60,8 @@ depends=(
     'which'
     'xfsprogs'
 
-    # base-devel group
-    'autoconf'
-    'automake'
-    'binutils'
-    'bison'
-    'fakeroot'
-    'flex'
-    'gcc'
-    'groff'
-    'libtool'
-    'm4'
-    'make'
-    'patch'
-    'pkgconf'
-    'sudo'
-    'systemd'
-
     # bootloader
     'grub'
-
-    # drivers
-    'intel-ucode'
-    'nvidia'
 
     # others
     'ntp'

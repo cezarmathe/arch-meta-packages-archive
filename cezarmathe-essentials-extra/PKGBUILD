@@ -1,0 +1,33 @@
+# Maintainer: Cezar Mathe <cezarmathe@gmail.com>
+pkgname=cezarmathe-essentials-extra
+pkgver=0.0.1
+pkgrel=1
+pkgdesc="Essential packages for all systems"
+arch=('any')
+# todo: change url
+url="https://github.com/mdaffin/arch-pkgs"
+license=('MIT')
+depends=(
+    'cezarmathe-essentials'
+
+    # base-devel group
+    'autoconf'
+    'automake'
+    'binutils'
+    'bison'
+    'fakeroot'
+    'flex'
+    'gcc'
+    'groff'
+    'libtool'
+    'm4'
+    'make'
+    'patch'
+    'pkgconf'
+    'sudo'
+    'systemd'
+
+    # drivers
+    'intel-ucode'
+    'nvidia'
+)

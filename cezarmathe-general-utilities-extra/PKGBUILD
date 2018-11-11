@@ -1,5 +1,5 @@
 # Maintainer: Cezar Mathe <cezarmathe@gmail.com>
-pkgname=cezarmathe-general-utilities
+pkgname=cezarmathe-general-utilities-extra
 pkgver=0.0.1
 pkgrel=1
 pkgdesc="General utilities"
@@ -8,12 +8,11 @@ arch=('any')
 url="https://github.com/mdaffin/arch-pkgs"
 license=('MIT')
 depends=(
-    # general utilities
-    'git'
-    'nano'
-    'neofetch'
-    'qbittorrent'
-    'ranger'
-    'vim'
-    'wget'
+    'cezarmathe-general-utilities'
+    
+    'atop'
+    'dos2unix'
+    'etckeeper'
+    'keepass'
+    'keychain'
 )

@@ -1,5 +1,5 @@
 # Maintainer: Cezar Mathe <cezarmathe@gmail.com>
-pkgname=cezarmathe-desktop
+pkgname=cezarmathe-desktop-loginmanager
 pkgver=0.0.1
 pkgrel=1
 pkgdesc="Packages needed for setting up a desktop PC."
@@ -8,16 +8,11 @@ arch=('any')
 url="https://github.com/mdaffin/arch-pkgs"
 license=('MIT')
 depends=(
-  # sound
-  'pulseaudio'
-  'pulseaudio-alsa'
-  'pulseaudio-jack'
+  'cezarmathe-desktop'
 
-  # xorg
-  'xorg-server'
-  # 'xorg-server-utils'
-  'xorg-xinit'
-
-  # others
-  'xdg-user-dirs'
+  # login manager
+  'lightdm'
+  'lightdm-settings'
+  'lightdm-gtk2-greeter'
+  'lightdm-webkit2-greeter'
 )

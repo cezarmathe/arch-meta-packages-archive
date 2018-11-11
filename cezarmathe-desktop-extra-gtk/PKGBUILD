@@ -2,7 +2,7 @@
 pkgname=cezarmathe-desktop-extra
 pkgver=0.0.1
 pkgrel=1
-pkgdesc="Extra packages for desktop PCs"
+pkgdesc="Extra packages for desktop PCs(GTK)"
 arch=('any')
 # todo: change url
 url="https://github.com/mdaffin/arch-pkgs"
@@ -28,6 +28,5 @@ depends=(
   'gnome-disk-utility'
   'gnome-documents'
   'gnome-nettool'
-  'keepass'
   'network-manager-applet'
 )
